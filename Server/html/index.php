@@ -5,7 +5,7 @@ header('Content-Type: application/json');
 
 // Vérification de la clé d'API
 $api_key = $_GET['access_key'] ?? null;
-$valid_api_key = 'dee39d73a02f584cab2302c5ecabccf5';  // Votre clé d'API
+$valid_api_key = 'dee39d73a02f584cab2302c5ecabccf5';
 
 if ($api_key !== $valid_api_key) {
     // Si la clé est invalide, renvoyer un code 403 et un message d'erreur
