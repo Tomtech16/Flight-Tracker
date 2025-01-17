@@ -1,2 +1,19 @@
-# Flight-Tracker
-Notre projet consiste à développer une application Android connectée, un site web et un programme backend en Java pour collecter, gérer et afficher des données de suivi de vols en temps réel.  
+# Sophia R&T Flight-Tracker
+
+## Bienvenue sur notre projet d'application Android de suivi de vols en temps réél !
+
+1. Nous avons créé une application Android en Java grâce à Android Studio
+   - Cette application permet :
+     - D'afficher une liste des vols, au départ d'un aéroport et à destination d'un aéroport
+     - D'afficher une liste des vols à partir d'un numéro de vol IATA
+     - De parcourir cette liste
+     - D'afficher les détails et la position de chaque vol
+
+2. Nous avons également créé un serveur Web pour gérer les requêtes de notre application
+   - Ce serveur Web Apache2 tourne sur une machine Debian 12
+   - Le back-end est développé en PHP
+   - Nous utilisons une base de données SQLite3
+
+3. De plus nous utilisons une application Java côté serveur
+   - Elle permet d'interroger l'API d'Avion Stack
+   - Elle stocke les données reçues dans la base de données
